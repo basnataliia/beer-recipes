@@ -11,8 +11,6 @@ export default function SearchBeer({
        	 searchForBeer(beerQuery);
        }
       } type="text" placeholder="Type Beer Name Here..."/>
-
-       <button onClick={() => searchForBeer(beerQuery)}>Search</button>
   	</div>
   	);
 }
