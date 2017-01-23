@@ -1,0 +1,170 @@
+.Beers-container {
+  margin: 0 50px;
+}
+
+.Beer-item {
+  border-bottom: 1px solid #ccc;
+  clear:both;
+  padding:20px;
+}
+
+.Beer-img {
+  float:left; 
+  margin-right:25px;
+  transition: all 0.2s ease-in-out;
+  width:40px; 
+} 
+
+.Beer-img:hover { 
+  transform: scale(2.1); 
+}
+
+.Beer-details {
+    overflow: hidden;
+}
+
+.Beer-details p {
+  color:#6d6e71;
+}
+
+.Beer-details .Title {
+  color:#000;
+  margin-top:0;
+}
+
+.LinkItem:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Beer-brewed span {
+  font-style: italic;
+}
+
+/*BeerDetail styles*/
+
+.Beer-detail {
+  border: 3px solid #ccc;
+  margin: 100px auto;
+  overflow:hidden;
+  padding: 50px;
+  position:relative;
+  width: 800px;
+}
+
+.Back-link{
+  position: absolute;
+  top:20px;
+  right:30px;
+}
+
+.Beer-detail-img{
+  float:left; 
+  margin-right:25px;
+  transition: all 0.2s ease-in-out;
+  width:150px;
+}
+
+.Beer-details h1.Beer-detail-name {
+  color:#000;
+  font-size:25px;
+  font-weight:500;
+  font-style: italic;
+}
+
+.Ingredients-details {
+  border: 1px solid #ccc;
+  display:flex;
+  justify-content: space-around;
+  padding:10px;
+}
+
+.Beer-detail h3, .Ingredients-details h4, .Ingredients-details span {
+  color: #6d6e71;
+}
+
+.Ingredient-item {
+  width:50%;
+}
+
+.Ingredient-item h4 {
+  text-decoration: underline;
+}
+
+
+.Malt{
+  border-right:1px solid #ccc;
+}
+
+.Ingredient-item-detail {
+  padding:5px;
+}
+
+.Hops-item{
+  padding-left:15px;
+}
+
+.Ingredients-details h4 {
+  text-align: center;
+}
+
+/*Beer Search*/
+
+.Beer-search {
+  margin: 0 auto;
+  width:400px;
+}
+
+.Beer-search input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #e9e9e9;
+  box-sizing: border-box;
+  width: 295px;
+  /*display: block;*/
+  /*margin: 20px 0px;*/
+  padding: 15px 20px;
+}
+
+.Beer-search button {
+    background-color: #239a85;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.71429;
+    min-width: 100px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: .6s ease-out;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Beer-search button:hover {
+  background-color: #1c7d6b;
+}
+
+.Sort-beer{
+    background-color: #fff;
+    border: 2px solid #239a85;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #239a85;
+    display: block;
+    font-size: 14px;
+    line-height: 1.71429;
+    min-width: 400px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: .6s ease-out;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Sort-beer:hover {
+  background-color: #ccc;
+}
